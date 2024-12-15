@@ -1,0 +1,30 @@
+.footer {
+  background-color: #041333;
+  color: white;
+  text-align: center;
+  padding: 1px 0;
+  animation: slideInUp 1s ease;
+}
+
+.footer p {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+.line-break{
+  padding: 0 1rem 0 1rem;
+  width: 100vw;
+  background-color: white;
+  height: 1px;
+}
+
+/* Animations */
+@keyframes slideInUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
