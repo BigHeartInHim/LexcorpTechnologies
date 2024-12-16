@@ -8,7 +8,7 @@
 
 .hero img {
   width: 100%; /* Full width of the container */
-  height: 100%; /* Full height of the container */
+  height: 100vh; /* Set height to fill the viewport */
   object-fit: cover; /* Ensures the image covers the area without distortion */
 }
 

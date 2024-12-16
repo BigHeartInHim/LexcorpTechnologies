@@ -1,14 +1,13 @@
 import React from 'react';
 import './Hero.css';
-import heroImage1 from '../../assets/Image1.jpeg';
+
 import heroImage2 from '../../assets/Image2.jpeg';
-import heroImage3 from '../../assets/Image3.jpeg';
-import heroImage5 from '../../assets/Image5.jpeg';
 import heroImage6 from '../../assets/Image6.jpeg';
 import heroImage7 from '../../assets/Image7.jpeg';
 import heroImage8 from '../../assets/Image8.jpeg';
+import heroImage9 from '../../assets/Image9.jpeg'; // Import Image9
 
-const images = [heroImage1, heroImage2, heroImage3, heroImage5, heroImage6, heroImage7, heroImage8]; // Import images correctly
+const images = [heroImage2, heroImage6, heroImage7, heroImage8, heroImage9]; // Updated images array
 
 function Hero() {
   return (
@@ -50,3 +49,4 @@ function Hero() {
 }
 
 export default Hero;
+
