@@ -6,33 +6,103 @@
   overflow: hidden;
 }
 
+/* Image Styling */
 .hero img {
-  width: 100%; /* Full width of the container */
-  height: 100vh; /* Set height to fill the viewport */
-  object-fit: cover; /* Ensures the image covers the area without distortion */
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* Carousel Items */
+.carousel-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: translateY(-100%); /* Start from the top */
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.carousel-item.active {
+  opacity: 1;
+  transform: translateY(0); /* Enter smoothly */
+  position: relative;
+  z-index: 2;
+}
+
+.carousel-item.previous {
+  transform: translateY(100%); /* Exit downwards */
+  opacity: 0;
 }
 
 /* Carousel Controls */
 .carousel-control-prev,
 .carousel-control-next {
-  width: 5%; /* Adjust the width of the arrow buttons */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4%;
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.5); /* Darker on hover */
+}
+
+.carousel-control-prev {
+  left: 1rem; /* Left margin */
+}
+
+.carousel-control-next {
+  right: 1rem; /* Right margin */
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.5); /* Dark background for visibility */
-  border-radius: 50%; /* Circular arrows */
-  padding: 10px; /* Adjust size of the controls */
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #fff; /* White icons for contrast */
+  mask-size: cover;
+  -webkit-mask-size: cover;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
 }
 
-/* Responsive Design for Smaller Screens */
+/* Responsive Icons */
+.carousel-control-prev-icon {
+  mask-image: url('https://cdn-icons-png.flaticon.com/512/130/130882.png'); /* Left arrow icon */
+  -webkit-mask-image: url('https://cdn-icons-png.flaticon.com/512/130/130882.png');
+}
+
+.carousel-control-next-icon {
+  mask-image: url('https://cdn-icons-png.flaticon.com/512/130/130884.png'); /* Right arrow icon */
+  -webkit-mask-image: url('https://cdn-icons-png.flaticon.com/512/130/130884.png');
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
   .hero img {
-    object-fit: contain; /* Preserve the image's aspect ratio on smaller screens */
+    object-fit: cover;
   }
 
   .carousel-control-prev,
   .carousel-control-next {
-    width: 8%; /* Larger controls for smaller screens */
+    width: 8%; /* Larger buttons for smaller screens */
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 2rem;
+    height: 2rem;
   }
 }
