@@ -1,8 +1,8 @@
 .guarantee {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 0;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  padding: 2rem 0; /* Keep top and bottom padding */
   background-color: #f9f9f9; /* Light grey background for the section */
 }
 
