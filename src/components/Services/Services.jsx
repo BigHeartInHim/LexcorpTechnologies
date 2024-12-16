@@ -4,11 +4,8 @@ import './Services.css';
 function Services() {
   return (
     <section id="services" className="services">
-      <h2>How It Works <span style={{ fontWeight: '400', fontStyle: 'italic' }}> - Simple, Fast, Effective</span></h2>
-
       <div className="container">
-        <h1 className="services-title">Services</h1>
-        <p className="breadcrumb">Lexcorp {'>'} Services</p>
+        <h1 className="services-title">Our Services <span style={{ fontWeight: '400', fontStyle: 'italic' }}> - Simple, Fast, Effective</span></h1> <br/>
         <div className="services-grid">
           <div className="service-card">
             <h3>Residential Internet</h3>

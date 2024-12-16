@@ -4,10 +4,9 @@ import './Hero.css';
 import heroImage2 from '../../assets/Image2.jpeg';
 import heroImage6 from '../../assets/Image6.jpeg';
 import heroImage7 from '../../assets/Image7.jpeg';
-import heroImage8 from '../../assets/Image8.jpeg';
 import heroImage9 from '../../assets/Image9.jpeg'; // Import Image9
 
-const images = [heroImage2, heroImage6, heroImage7, heroImage8, heroImage9]; // Updated images array
+const images = [heroImage2, heroImage6, heroImage7, heroImage9]; // Updated images array
 
 function Hero() {
   return (
@@ -49,4 +48,3 @@ function Hero() {
 }
 
 export default Hero;
-

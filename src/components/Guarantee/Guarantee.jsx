@@ -4,27 +4,23 @@ import './Guarantee.css';
 function Guarantee() {
   return (
     <section id="guarantee" className="guarantee">
-      <h2>Our Guarantee</h2>
-      <div className="guarantee-cards">
-        <div className="card">
-          <h3>100% Uptime Guarantee</h3>
+      <div className="guarantee-row">
+        {/* Card 1 */}
+        <div className="guarantee-card card-1">
+          <h2>100% Uptime Guarantee</h2>
           <p>We ensure that your internet connection is always available.</p>
         </div>
-        <div className="card">
-          <h3>No Data Caps</h3>
+
+        {/* Card 2 */}
+        <div className="guarantee-card card-2">
+          <h2>No Data Caps</h2>
           <p>Enjoy unlimited data usage without any restrictions.</p>
         </div>
-        <div className="card">
-          <h3>24/7 Customer Support</h3>
+
+        {/* Card 3 */}
+        <div className="guarantee-card card-3">
+          <h2>24/7 Customer Support</h2>
           <p>Our dedicated team is here to assist you anytime.</p>
-        </div>
-        <div className="card">
-          <h3>Speed and Performance Guarantee</h3>
-          <p>Experience the speeds we promise, or your money back.</p>
-        </div>
-        <div className="card">
-          <h3>Money-Back Guarantee</h3>
-          <p>If you're not satisfied with our service, we offer a full refund within the first 30 days.</p>
         </div>
       </div>
     </section>

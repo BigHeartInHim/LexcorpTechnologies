@@ -7,48 +7,45 @@ function Packages() {
       <h2>Our Packages <span style={{ fontWeight: '400', fontStyle: 'italic' }}> - Affordable, Fast, Reliable</span></h2>
 
       <div className="container">
-        <h1 className="packages-title">Packages Style 3</h1>
-        <p className="breadcrumb">UltraNet {'>'} Packages Style 3</p>
         <div className="packages-grid">
           {/* Package 1 */}
           <div className="package-card">
-            <h3>Bronze Plus</h3>
+            <h3>Bronze</h3>
             <p>
-              20Mbps Download Speed<br />
-              10Mbps Upload Speed
+              11Mbps Download Speed<br />
+              12Mbps Upload Speed
             </p>
             <div className="package-speed">
               <span>Speed</span>
               <h2>
-                20.0 <small>Mbps</small>
+                12 <small>Mbps</small>
               </h2>
             </div>
             <div className="best-speed">
               <p>Best Speed For:</p>
-              <ul>
+              <ul> 
                 <li>1 movie (2GB) would take... <strong>13.3 min</strong> to download</li>
                 <li>50 photos (300MB) would take... <strong>2 min</strong> to download</li>
                 <li>1 album (60MB) would take... <strong>24 sec</strong> to download</li>
               </ul>
             </div>
+
             <div className="price">
-              <h2>$25.00</h2>
-              <p>per month*</p>
-              <p>12 Month Pricing</p>
+              <h2>Ksh.1500</h2>
             </div>
           </div>
 
           {/* Package 2 */}
           <div className="package-card">
-            <h3>Silver Extra</h3>
+            <h3>Silver</h3>
             <p>
-              50Mbps Download Speed<br />
-              20Mbps Upload Speed
+              15Mbps Download Speed<br />
+              21Mbps Upload Speed
             </p>
             <div className="package-speed">
               <span>Speed</span>
               <h2>
-                50.0 <small>Mbps</small>
+                18 <small>Mbps</small>
               </h2>
             </div>
             <div className="best-speed">
@@ -60,23 +57,21 @@ function Packages() {
               </ul>
             </div>
             <div className="price">
-              <h2>$40.00</h2>
-              <p>per month*</p>
-              <p>12 Month Pricing</p>
+              <h2>Ksh.2000</h2>
             </div>
           </div>
 
           {/* Package 3 */}
           <div className="package-card">
-            <h3>Gold Max</h3>
+            <h3>Gold</h3>
             <p>
-              100Mbps Download Speed<br />
-              50Mbps Upload Speed
+              35bps Download Speed<br />
+              40Mbps Upload Speed
             </p>
             <div className="package-speed">
               <span>Speed</span>
               <h2>
-                100.0 <small>Mbps</small>
+                35.0 <small>Mbps</small>
               </h2>
             </div>
             <div className="best-speed">
@@ -88,9 +83,7 @@ function Packages() {
               </ul>
             </div>
             <div className="price">
-              <h2>$60.00</h2>
-              <p>per month*</p>
-              <p>12 Month Pricing</p>
+              <h2>Ksh.3500</h2>
             </div>
           </div>
 
@@ -98,13 +91,13 @@ function Packages() {
           <div className="package-card">
             <h3>Platinum Ultra</h3>
             <p>
-              200Mbps Download Speed<br />
-              100Mbps Upload Speed
+              50Mbps Download Speed<br />
+              55Mbps Upload Speed
             </p>
             <div className="package-speed">
               <span>Speed</span>
               <h2>
-                200.0 <small>Mbps</small>
+                45.0 <small>Mbps</small>
               </h2>
             </div>
             <div className="best-speed">
@@ -116,9 +109,7 @@ function Packages() {
               </ul>
             </div>
             <div className="price">
-              <h2>$80.00</h2>
-              <p>per month*</p>
-              <p>12 Month Pricing</p>
+              <h2>Ksh.4500</h2>
             </div>
           </div>
         </div>
