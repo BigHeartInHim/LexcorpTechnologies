@@ -3,7 +3,8 @@ import './Guarantee.css';
 
 function Guarantee() {
   return (
-    <section id="guarantee" className="guarantee">
+  <section id="guarantee" className="guarantee">
+  <h1>We Guarantee</h1>
       <div className="guarantee-row">
         {/* Card 1 */}
         <div className="guarantee-card card-1">
