@@ -25,7 +25,7 @@ function WhatsAppPopup() {
 
   const handleConfirmRedirect = () => {
     window.open(
-      'https://wa.me/254707919856?text=Hi,%20I%20need%20help%20with%20my%20assignment!',
+      'https://wa.me/254113626377?text=Hi,%20I%20would%20like%20to%20inquire%20about%20your%20internet%20service%20options.',
       '_blank'
     );
     setShowModal(false);

@@ -1,14 +1,12 @@
 import React from 'react';
 import './Header.css';
-import siteLogo from '../../assets/Lexcorp (1).png'
+import siteLogo from '../../assets/Image4.png';
 
 function Header() {
   return (
     <header className="header">
       <div className="logo"> 
-        
         <img src={siteLogo} alt="Lexcorp Logo" className='img-logo'/>
-        
       </div>
       <nav className="nav">
         <ul>
